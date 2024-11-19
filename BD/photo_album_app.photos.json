@@ -1,0 +1,84 @@
+[{
+  "_id": {
+    "$oid": "673c035fa4d21d15a5166ad6"
+  },
+  "title": "Las Vegas",
+  "user": {
+    "$oid": "673bebde9a9d75d475b9d762"
+  },
+  "path": "/images/1731986271165-descarga (1).jfif",
+  "createdAt": {
+    "$date": "2024-11-19T03:17:51.167Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "673c038ba4d21d15a5166ae7"
+  },
+  "title": "Divirtiéndome",
+  "user": {
+    "$oid": "673bebde9a9d75d475b9d762"
+  },
+  "path": "/images/1731986315949-descarga (2).jfif",
+  "createdAt": {
+    "$date": "2024-11-19T03:18:35.951Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "673c0396a4d21d15a5166aed"
+  },
+  "title": "Disfrutando el camino",
+  "user": {
+    "$oid": "673bebde9a9d75d475b9d762"
+  },
+  "path": "/images/1731986326316-descarga (3).jfif",
+  "createdAt": {
+    "$date": "2024-11-19T03:18:46.317Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "673c03a3a4d21d15a5166af3"
+  },
+  "title": "Que noche !!!",
+  "user": {
+    "$oid": "673bebde9a9d75d475b9d762"
+  },
+  "path": "/images/1731986339361-descarga (4).jfif",
+  "createdAt": {
+    "$date": "2024-11-19T03:18:59.363Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "673c03b2a4d21d15a5166af9"
+  },
+  "title": "Que paso??",
+  "user": {
+    "$oid": "673bebde9a9d75d475b9d762"
+  },
+  "path": "/images/1731986354012-descarga (5).jfif",
+  "createdAt": {
+    "$date": "2024-11-19T03:19:14.014Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "673c03baa4d21d15a5166aff"
+  },
+  "title": "La tranquilidad",
+  "user": {
+    "$oid": "673bebde9a9d75d475b9d762"
+  },
+  "path": "/images/1731986362850-descarga.jfif",
+  "createdAt": {
+    "$date": "2024-11-19T03:19:22.852Z"
+  },
+  "__v": 0
+}]

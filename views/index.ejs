@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mis Mejores Momentos</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <!-- Barra de navegación -->
+  <div class="navbar">
+    <h1>Mis Mejores Momentos</h1>
+    <div class="navbar-links">
+      
+      <a href="/login">Iniciar sesión</a>
+      <a href="/register">Registrar</a>
+    </div>
+  </div>
+
+  <!-- Título y enlaces -->
+  <h2>Bienvenido Ing. Jose Luis Del Valle Nuñez</h2>
+  <h2>Últimas fotos</h2>
+  
+  <div class="photos-gallery">
+    <% photos.forEach(photo => { %>
+      <div class="photo-item">
+        <!-- Enlace para abrir el modal con la imagen -->
+        <a href="javascript:void(0);" onclick="openModal('<%= photo.path %>', '<%= photo.title %>')">
+          <img src="<%= photo.path %>" alt="<%= photo.title %>" />
+        </a>
+        <p><%= photo.title %></p>
+      </div>
+    <% }) %>
+  </div>
+
+  <!-- Modal para mostrar la imagen -->
+  <div id="photoModal" class="modal">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <img class="modal-content" id="modalImage">
+    <div id="modalCaption" class="caption"></div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2024 Mis Mejores Momentos. Todos los derechos reservados.</p>
+    <p>Desarrollado por Juan Carlos Rocha Ruiz</p>
+  </footer>
+
+
+</body>
+</html>

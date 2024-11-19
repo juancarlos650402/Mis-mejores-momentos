@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+   <!-- Barra de navegación -->
+   <div class="navbar">
+    <h1>Mis Mejores Momentos</h1>
+    <div class="navbar-links">
+      <a href="/login">Iniciar sesión</a>
+      <a href="/register">Registrar</a>
+      <a href="/" class="navbar-link navbar-link-back">Cerrar la sesión</a> <!-- Enlace Volver -->
+    </div>
+    </div>
+  </div>
+
+
+  <h1>Bienvenido</h1>
+
+    <h2>Subir nueva foto:</h2>
+  <form action="/photos/upload" method="POST" enctype="multipart/form-data">
+    <input type="text" name="title" placeholder="Título de la foto" required>
+    <input type="file" name="photo" accept="image/*" required>
+    <button type="submit">Subir</button>
+  </form>
+   <!-- Footer -->
+   <footer class="footer">
+    <p>&copy; 2024 Mis Mejores Momentos. Todos los derechos reservados.</p>
+    <p>Desarrollado por Juan Carlos Rocha Ruiz</p>
+  </footer>
+</body>
+</html>
